@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/angelo-james/personal-assistant-sass#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2"
   }
 }
